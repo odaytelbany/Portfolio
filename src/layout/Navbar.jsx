@@ -14,11 +14,8 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  console.log(isScrolled);
-
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.scrollY);
       setIsScrolled(window.scrollY > 50);
     };
 
@@ -70,13 +67,14 @@ export const Navbar = () => {
             {navLinks.map((link, index) => (
               <a
                 href={link.href}
+                onClick={() => setIsMobileMenuOpen(false)}
                 key={index}
                 className="text-lg text-muted-foreground hover:text-foreground py-2"
               >
                 {link.label}
               </a>
             ))}
-            <Button>Contact Me</Button>
+            <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
           </div>
         </div>
       )}
