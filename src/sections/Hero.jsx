@@ -1,4 +1,4 @@
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import Button from "../components/Button";
 import AnimatedBorderButton from "../components/AnimatedBorderButton";
@@ -79,7 +79,10 @@ const Hero = () => {
               <Button size="lg">
                 Contact Me <ArrowRight className="size-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                <Download className="size-5" />
+                Download CV
+              </AnimatedBorderButton>
             </div>
 
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
@@ -147,9 +150,12 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
-        <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-">
+        <a
+          href="#about"
+          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-"
+        >
           <span className="text-xs uppercase tracking-wider">Scroll</span>
-          <ChevronDown className="size-6 animate-bounce"/>
+          <ChevronDown className="size-6 animate-bounce" />
         </a>
       </div>
     </section>

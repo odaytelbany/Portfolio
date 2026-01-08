@@ -80,6 +80,7 @@ export const About = () => {
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, index) => (
               <div
+                key={index}
                 className="glass rounded-2xl p-6 animate-fade-in "
                 style={{ animationDelay: `${(index + 1) * 100}ms` }}
               >
