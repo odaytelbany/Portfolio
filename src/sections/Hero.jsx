@@ -4,16 +4,24 @@ import Button from "../components/Button";
 import AnimatedBorderButton from "../components/AnimatedBorderButton";
 
 const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
   "React.js",
   "Next.js",
   "Node.js",
   "Express.js",
   "MongoDB",
-  "TypeScript",
-  "JavaScript",
-  "HTML5",
-  "CSS3",
   "Tailwind CSS",
+  "Bootstrap",
+  "RESTful APIs",
+  "Redis",
+  "Zustand",
+  "Redux",
+  "React Native",
+  "Expo",
+  "Figma",
   "Git & GitHub",
 ];
 
@@ -69,32 +77,41 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Oday Altelbani - a software engineer specializing in
-                MERN full stack web development. I build scalable web
-                applications with a focus on performance and user experience.
+                Hi, I’m Oday Altelbani, a software engineer specializing in MERN
+                full-stack development, focused on building scalable,
+                high-performance web applications with excellent user
+                experience.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
-                Contact Me <ArrowRight className="size-5" />
+                <a className="flex items-center gap-2" href="#contact">
+                  Contact Me <ArrowRight className="size-5" />
+                </a>
               </Button>
               <AnimatedBorderButton>
-                <Download className="size-5" />
+                <a className="flex items-center gap-2" href="/Oday Altelbani Resume.pdf" download>
+                  <Download className="size-5" />
                 Download CV
+                </a>
               </AnimatedBorderButton>
             </div>
 
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Instagram, href: "#" },
+                { icon: Github, href: "https://github.com/odaytelbany" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/odaytelbany",
+                },
+                { icon: Instagram, href: "https://www.instagram.com/odaytelbany" },
               ].map((social, index) => (
                 <a
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                   href={social.href}
+                  target="_blank"
                   key={index}
                 >
                   {<social.icon className="size-5" />}

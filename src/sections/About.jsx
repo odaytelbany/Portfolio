@@ -5,13 +5,13 @@ const highlights = [
     icon: Code2,
     title: "Clean Code",
     description:
-      "Writing maintainable, scalable code that stands the rest of time.",
+      "Writing maintainable, scalable and clean code that stands over the time.",
   },
   {
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experience.",
+      "Optimizing speed and delivering the fastest user experience possible.",
   },
   {
     icon: Users,
@@ -49,17 +49,10 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I’m a software engineer focused on building reliable, high-quality web applications using modern frontend technologies. I specialize in MERN stack, delivering products that balance performance, scalability, and thoughtful user experience.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                My work ranges from simple landing pages to complex full stack applications, with a strong emphasis on clean architecture and long-term maintainability.
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies,
@@ -70,9 +63,7 @@ export const About = () => {
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful - products that user love to
-                use and developers love to maintain."
+                "Simplicity in design enables reliability in systems."
               </p>
             </div>
           </div>

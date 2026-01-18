@@ -1,29 +1,29 @@
 const experiences = [
   {
-    period: "2025 - Present",
-    role: "Frontend Developer Volunteer",
+    period: "SEP 2025 - Present",
+    role: "Software Engineer Volunteer",
     company: "UNRWA",
     description:
-      "leading fdsf sdfsd fdsf sdf dsfds fds fsd fdsfsdjgwer gfrg fgfdh dh rtwe ewgh trhj b vn vntgnhtbn ngnt trhnt ",
-    technologies: ["React", "Typescript", "Next.js", "Graphql"],
+      "Assisted clinic staff by resolving hardware, software, and network issues while improving workflows through documentation, recommendations, and support for data entry department.",
+    technologies: ["MS Office", "Networking", "Hardware", "Software"],
     current: true,
   },
   {
-    period: "2024 - 2025",
-    role: "Frontend Developer Entern",
+    period: "APR 2024 - NOV 2025",
+    role: "Software Engineer Intern",
     company: "Altahreer",
     description:
-      "leading fdsf sdfsd fdsf sdf dsfds fds fsd fdsfsdjgwer gfrg fgfdh dh rtwe ewgh trhj b vn vntgnhtbn ngnt trhnt ",
-    technologies: ["React", "Typescript", "Next.js", "tailwind"],
+      "Redesigned and rebuilt the website using Next.js and Sanity.io, optimized product images to match the site’s theme, integrated them into the system, and achieved a 95% internship evaluation score.",
+    technologies: ["Sanity Io", "Typescript", "Next.js", "Tailwind Css"],
     current: false,
   },
   {
-    period: "2023 - 2024",
+    period: "MAY 2023 - JUL 2023",
     role: "Frontend Developer",
-    company: "UNRWA",
+    company: "Merkato Store",
     description:
-      "leading fdsf sdfsd fdsf sdf dsfds fds fsd fdsfsdjgwer gfrg fgfdh dh rtwe ewgh trhj b vn vntgnhtbn ngnt trhnt ",
-    technologies: ["React", "Typescript", "Next.js", "Graphql"],
+      "Led the frontend development of an e-commerce website built from scratch with React.js, integrating APIs to handle 400+ products and the full checkout flow, delivering the project one month ahead of schedule and identifying three backend response issues.",
+    technologies: ["React.js", "Redux", "Axios"],
     current: false,
   },
 ];

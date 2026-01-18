@@ -3,40 +3,40 @@ import AnimatedBorderButton from "../components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Netflix Clone",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "A full-stack Netflix clone with user authentication, movie browsing, and watchlist features.",
+    image: "/projects/Netflix Clone.jpg",
+    tags: ["React", "Typescript", "NodeJS", "MongoDB", "Express"],
+    link: "https://netflix-fullstack-clone-7l3x.onrender.com/",
+    github: "https://github.com/odaytelbany/Netflix-Fullstack-Clone",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Kajwal",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    image: "/projects/Ecommerce.jpg",
+    tags: ["Next.js", "Stripe", "Sanity IO", "Tailwind"],
+    link: "https://kajwal.vercel.app/",
+    github: "https://github.com/odaytelbany/Kajwal-Ecommerce",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Chatty",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+      "An AI-powered chat application that provides intelligent responses and context-aware conversations.",
+    image: "/projects/Chatty App.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    link: "https://fullstack-chat-app-au06.onrender.com",
+    github: "https://github.com/odaytelbany/Fullstack_Chat_App",
   },
   {
-    title: "Project Management Tool",
+    title: "Bookies",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "A real-time collaborative book reading platform with chat and annotation features.",
+    image: "/projects/BookStore.png",
+    tags: ["Next.js", "Express", "MongoDB", "tailwind"],
     link: "#",
-    github: "#",
+    github: "https://github.com/odaytelbany/Book-Store",
   },
 ];
 
@@ -77,18 +77,20 @@ export const Projects = () => {
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-40" />
 
                 <div className="absolute inset-0 flex justify-center items-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank"
                   >
                     <ArrowUpRight className="size-5" />
                   </a>
                   <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank"
                   >
                     <Github className="size-5" />
                   </a>
@@ -123,7 +125,7 @@ export const Projects = () => {
         {/* View All Projects  */}
         <div className="mt-12 text-center animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            View All Projects
+            <a href="https://github.com/odaytelbany" target="_blank">View All Projects</a>
             <ArrowUpRight className="size-5"/>
           </AnimatedBorderButton>
         </div>
