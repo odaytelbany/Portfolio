@@ -35,7 +35,7 @@ const projects = [
       "A real-time collaborative book reading platform with chat and annotation features.",
     image: "/projects/BookStore.png",
     tags: ["Next.js", "Express", "MongoDB", "tailwind"],
-    link: "#",
+    link: "https://bookies-alpha.vercel.app",
     github: "https://github.com/odaytelbany/Book-Store",
   },
 ];
