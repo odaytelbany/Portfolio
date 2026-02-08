@@ -6,7 +6,7 @@ const projects = [
     title: "Netflix Clone",
     description:
       "A full-stack Netflix clone with user authentication, movie browsing, and watchlist features.",
-    image: "/projects/Netflix Clone.jpg",
+    image: "/projects/Netflix Clone.webp",
     tags: ["React", "Typescript", "NodeJS", "MongoDB", "Express"],
     link: "https://netflix-fullstack-clone-7l3x.onrender.com/",
     github: "https://github.com/odaytelbany/Netflix-Fullstack-Clone",
@@ -15,7 +15,7 @@ const projects = [
     title: "Kajwal",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/Ecommerce.jpg",
+    image: "/projects/Ecommerce.webp",
     tags: ["Next.js", "Stripe", "Sanity IO", "Tailwind"],
     link: "https://kajwal.vercel.app/",
     github: "https://github.com/odaytelbany/Kajwal-Ecommerce",
@@ -24,7 +24,7 @@ const projects = [
     title: "Chatty",
     description:
       "An AI-powered chat application that provides intelligent responses and context-aware conversations.",
-    image: "/projects/Chatty App.png",
+    image: "/projects/Chatty App.webp",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "https://fullstack-chat-app-au06.onrender.com",
     github: "https://github.com/odaytelbany/Fullstack_Chat_App",
@@ -33,7 +33,7 @@ const projects = [
     title: "Bookies",
     description:
       "A real-time collaborative book reading platform with chat and annotation features.",
-    image: "/projects/BookStore.png",
+    image: "/projects/BookStore.webp",
     tags: ["Next.js", "Express", "MongoDB", "tailwind"],
     link: "https://bookies-alpha.vercel.app",
     github: "https://github.com/odaytelbany/Book-Store",
